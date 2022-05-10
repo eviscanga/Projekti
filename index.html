@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.scss">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+</head>
+
+<header class="container w-75 d-lg-block d-md-block d-none">
+  <nav class="navbar navbar-expand navbar-light d-flex justify-content-between">
+    <div class="pj1 d-flex flex-row">
+      <a class="navbar-brand">
+        <img class="img-fluid" src="leo.png" alt="logo">
+      </a>
+      <ul class="navbar-nav mr-auto d-flex align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+    </div>
+    <div class="pj2 d-flex flex-row">
+      <div class="ms-auto collapse" id="navbarContent">
+        <button class="btn"><i class="bi bi-search"></i></button>
+        <button class="btn"><i class="bi bi-person"></i></button>
+        <button class="btn"><i class="bi bi-heart"></i></button>
+      </div>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false"><i class="bi bi-list"></i></button>
+    </div>
+  </nav>
+</header>
+
+<!-- Mobile -->
+<header class="container d-lg-none d-md-none">
+  <nav class="navbar navbar-expand navbar-light d-flex flex-row justify-content-between">
+    <div class="pj1 d-flex flex-row">
+      <button class="btn" type="button"><i class="bi bi-list"></i></button>
+    </div>
+    <div class="pj2">
+      <a class="navbar-brand">
+        <img class="img-fluid" src="leo.png" alt="logo">
+      </a>
+    </div>
+    <div class="pj3">
+      <button class="btn"><i class="bi bi-cart"></i></button>
+    </div>
+  </nav>
+  <div class="ms-auto  mob d-lg-none d-md-none" id="navbarContent">
+    <button class="btn"><i class="bi bi-search"></i></button>
+    <button class="btn"><i class="bi bi-person"></i></button>
+    <button class="btn"><i class="bi bi-heart"></i></button>
+    <button class="btn"><i class="bi bi-cart"></i></button>
+  </div>
+</header>
+
+<body>
+  <!-- 1 -->
+  <div class="container-fluid mt-0">
+    <div class="row">
+      <div class="d-lg-flex flex-lg-column align-items-lg-center align-self-lg-center col-lg-1 px-0 d-none">
+        <button class="btn social-icon social-icon--instagram"><i class="fa-brands fa-instagram"></i>
+          <div class="tooltip">Instagram</div>
+        </button>
+        <button class="btn social-icon social-icon--twitter mt-lg-2"><i class="fa-brands fa-twitter"></i>
+          <div class="tooltip">Twitter</div>
+        </button>
+
+        <button class="btn btn social-icon social-icon--pinterest mt-lg-2"><i class="fa-brands fa-pinterest"></i>
+          <div class="tooltip">Pinterest</div>
+        </button></button>
+        <button class="btn social-icon social-icon--facebook mt-lg-2"><i class="fa-brands fa-facebook-f"></i>
+          <div class="tooltip">Facebook</div>
+        </button>
+        <button class="btn hover-underline-animation text-dark transform text-uppercase wrapper mt-4">Follow us</button>
+
+      </div>
+      <div class="swiper mySwiper col-lg-10 col-12">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="img-fluid" src="1.jpg" style="object-fit: contain; "></img>
+            <div class="d-flex flex-column text col-lg-5">
+              <small class="text-uppercase text-white d-lg-flex flex-lg-row"
+                style="font-size: small;font-family: 'El Messiri', sans-serif;">New trend
+              </small>
+              <p class="my-0 text-white d-block text-uppercase fw-bold fonts"
+                style="font-family: 'El Messiri', sans-serif;">
+                Summer
+                Sale <strong>Women</strong></p>
+              <small class="text-uppercase hover-underline-animation text-white fonti align-self-start"
+                style="cursor: pointer; font-family: 'El Messiri', sans-serif;">Shop
+                now</small>
+            </div>
+          </div>
+          <div class="swiper-slide"><img class="img-fluid" src="2.jpg" style="object-fit: contain; "></img></div>
+          <div class="swiper-slide"><img class="img-fluid" src="3.jpg" style="object-fit: contain; "></img></div>
+          <div class="swiper-slide"><img class="img-fluid" src="4.jpg" style="object-fit: contain; "></img></div>
+        </div>
+        <div class="swiper-pagination ">
+        </div>
+      </div>
+
+      <div class="col-lg-1 d-lg-flex d-none px-0 align-self-lg-end">
+        <a class="hover-underline-animation text-dark transform text-uppercase wrapper py-4"
+          style="cursor: pointer;">Scroll
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section 2 -->
+  <div class="container w-75 section1">
+    <div class="d-lg-flex row justify-content-lg-between">
+      <div class="col-lg-6 col-md-6 col-12 rounded">
+        <div class="card text-white">
+          <img src="slide2.jpg" class="card-img-top img-fluid">
+          <div class="card-img-overlay">
+            <small class="text-uppercase fonti">Hot List</small>
+            <h6 class="my-0 text-white d-block text-uppercase"><strong>Women</strong> Collection</h6>
+            <small class="text-uppercase hover-underline-animation text-white fonti"
+              style="cursor: pointer; font-family: 'El Messiri', sans-serif;">Shop
+              now</small>
+          </div>
+        </div>
+      </div>
+      <div class="d-lg-flex flex-lg-column justify-content-lg-between col-lg-6 col-md-6">
+        <div class="rounded col-12">
+          <div class="card text-white">
+            <img src="johnny.jpg" class="card-img-top img-fluid">
+            <div class="card-img-overlay">
+              <small class="text-uppercase fonti">Hot List</small>
+              <h6 class="my-0 text-white d-block text-uppercase"><strong>Men</strong> Collection</h6>
+              <small class="text-uppercase hover-underline-animation text-white fonti"
+                style="cursor: pointer; font-family: 'El Messiri', sans-serif;">Shop
+                now</small>
+            </div>
+          </div>
+        </div>
+        <div class="d-lg-flex d-md-flex flex-lg-row flex-md-row ">
+          <div class="rounded col-lg-3 col-md-3 col-12 karta1">
+            <div class="card text-white">
+              <img src="katemoss.jpg" class="card-img-top img-fluid " style="object-fit: contain;">
+              <div class="card-img-overlay">
+                <small class="text-uppercase fonti">Hot List</small>
+                <h6 class="my-0 text-white d-block text-uppercase"><strong>Kids</strong> Collection</h6>
+                <small class="text-uppercase hover-underline-animation text-white fonti"
+                  style="cursor: pointer; font-family: 'El Messiri', sans-serif;">Shop
+                  now</small>
+              </div>
+            </div>
+          </div>
+          <div class="rounded col-lg-3 col-md-3 col-12 karta2">
+            <div class="card text-white">
+              <img src="claudia.jpg" class="card-img-top img-fluid" style="object-fit: contain;">
+              <div class="card-img-overlay">
+                <small class="text-uppercase fonti">Hot List</small>
+                <h6 class="my-0 text-white d-block text-uppercase"><strong>E-gift</strong> Cards</h6>
+                <small class="text-uppercase hover-underline-animation text-white fonti"
+                  style="cursor: pointer; font-family: 'El Messiri', sans-serif;">Discover more</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container d-flex flex-column  mt-4 align-items-center" style="cursor: pointer;">
+    <h2 class="text-uppercase">Our trendy
+      <strong>products</strong>
+    </h2>
+    <div class="d-flex flex-row  text-uppercase mt-3" style="gap: 10px;">
+      <a class="hover-underline-animation text-dark" style="opacity: 0.7; white-space: nowrap;">All</a>
+      <a class="hover-underline-animation text-dark" style="opacity: 0.7; white-space: nowrap;">New arrivals</a>
+      <a class="hover-underline-animation text-dark" style="opacity: 0.7; white-space: nowrap;">Best seller</a>
+      <a class="hover-underline-animation text-dark" style="opacity: 0.7; white-space: nowrap;">Top rating</a>
+
+    </div>
+  </div>
+  <!-- cards -->
+  <div class="container w-75">
+    <div class="mt-3 d-lg-flex row justify-content-lg-between">
+      <!-- first card -->
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card border-0" style="background: none;">
+          <img class="img-fluid" src="leather.jpg" alt="Pilot Aviator Glasses Gear Image">
+          <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+            <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+            <button class="btn butoni" click="onClick()"><i class="bi bi-heart"></i>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+            <p class="tekst my-0 px-0 py-0">Cropped Faux Leather Jacket</p>
+            <p class="price fs-6 py-0 px-0">$29.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- second card -->
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card border-0" style="background: none;">
+          <img class="img-fluid" src="corset.jpg" alt="Pilot Aviator Glasses Gear Image">
+          <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+            <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+            <button class="btn butoni" click="onClick()"><i class="bi bi-heart"></i>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+            <p class="tekst my-0 px-0 py-0">Cropped Faux Leather Jacket</p>
+            <p class="price fs-6 py-0 px-0">$29.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- third card -->
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card border-0" style="background: none;">
+          <img class="img-fluid" src="cable knit.jpg" alt="Pilot Aviator Glasses Gear Image">
+          <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+            <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+            <button class="btn butoni" click="onClick()"><i class="bi bi-heart"></i>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+            <p class="tekst my-0 px-0 py-0">Cropped Faux Leather Jacket</p>
+            <div class="d-flex flex-row">
+              <p class="price fs-6 py-0 px-0"><del>$45.00</del></p>
+              <p class="price fs-6 py-0 ps-2 text-danger">$15.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fourth card -->
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card border-0" style="background: none;">
+          <img class="img-fluid" src="dress.jpg" alt="Pilot Aviator Glasses Gear Image">
+          <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+            <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+            <button class="btn butoni" click="onClick()"><i class="bi bi-heart"></i>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+            <p class="tekst my-0 px-0 py-0">Cropped Faux Leather Jacket</p>
+            <p class="price fs-6 py-0 px-0">$45.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container w-75">
+    <div class="row mt-3 d-flex justify-content-lg-between">
+      <!-- fifth card -->
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card border-0" style="background: none;">
+          <img class="img-fluid" src="colour.jpg" alt="Pilot Aviator Glasses Gear Image">
+          <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+            <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+            <button class="btn butoni"><i class="bi bi-heart"></i>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+            <p class="tekst my-0 px-0 py-0">Cropped Faux Leather Jacket</p>
+            <p class="price fs-6 py-0 px-0">$29.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- sixth card -->
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card border-0" style="background: none;">
+          <img class="img-fluid" src="knit.jpg" alt="Pilot Aviator Glasses Gear Image">
+          <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+            <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+            <button class="btn butoni"><i class="bi bi-heart"></i>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+            <p class="tekst my-0 px-0 py-0">Cropped Faux Leather Jacket</p>
+            <p class="price fs-6 py-0 px-0">$29.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- seventh card -->
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card border-0" style="background: none;">
+          <img class="img-fluid" src="floral.jpg" alt="Pilot Aviator Glasses Gear Image">
+          <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+            <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+            <button class="btn butoni"><i class="bi bi-heart"></i>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+            <p class="tekst my-0 px-0 py-0">Cropped Faux Leather Jacket</p>
+            <p class="price fs-6 py-0 px-0">$45.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- eighth card -->
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card border-0" style="background: none;">
+          <img class="img-fluid" src="angel.jpg" alt="Pilot Aviator Glasses Gear Image">
+          <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+            <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+            <button class="btn butoni"><i class="bi bi-heart"></i>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+            <p class="tekst my-0 px-0 py-0">Cropped Faux Leather Jacket</p>
+            <div class="d-flex flex-row">
+              <p class="price fs-6 py-0 px-0"><del>$76.00</del></p>
+              <p class="price fs-6 py-0 ps-2 text-danger">$45.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="d-flex justify-content-center mt-3 fs-6">
+    <a class="hover-underline-animation text-dark text-uppercase" style="opacity: 0.7; cursor: pointer;">See all
+      products</a>
+  </div>
+
+  <div class="container-fluid mt-4" style="background-color: rgb(230, 229, 229);">
+    <div class="container w-75 d-flex flex-row justify-content-between pt-2">
+      <div class="col-lg-8 d-flex justify-content-start align-items-center">
+        <div class="flex-column align-items-start">
+          <div class="d-flex flex-column">
+            <p class="text-danger spring" style="font-family: 'El Messiri', sans-serif;">Deal of the week</p>
+            <h2 class="text-uppercase" style="font-family: 'El Messiri', sans-serif;">Spring Collection</h2>
+            <a class="hover-underline-animation text-dark align-self-start"
+              style="cursor: pointer; font-family: 'El Messiri', sans-serif;">Shop now</a>
+          </div>
+          <p class="text-bottom mt-5" style="font-family: 'El Messiri', sans-serif; font-size: medium;" id="demo"></p>
+        </div>
+      </div>
+      <div class="col-lg-4 d-lg-flex justify-content-lg-end d-none">
+        <img class="img-fluid" style="object-fit: contain; font-family: 'El Messiri', sans-serif;"
+          src="spring-removebg-preview.png">
+      </div>
+    </div>
+  </div>
+
+
+  <section class="wrapper section2 mt-3">
+    <div class="container w-75">
+      <div class="d-flex row justify-content-between">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="card text-white card-has-bg click-col img-fluid"
+            style="background-image:url(pretty.jpg); background-position: center; background-size: cover;">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="card-footer">
+                <small class="text-uppercase">Starting at $19</small>
+                <h6 class="my-0 text-white d-block"><strong>Women</strong> T-shirts</h6>
+                <small class="text-uppercase hover-underline-animation text-white fonti">Shop now</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 kot">
+          <div class="card text-white card-has-bg click-col img-fluid"
+            style="background-image:url(menvogue.jpg); background-position: center; background-size: cover;">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="card-footer">
+                <small class="text-uppercase">Starting at $39</small>
+                <h6 class="my-0 text-white d-block"><strong>Men</strong> Sportwear</h6>
+                <small class="text-uppercase hover-underline-animation text-white fonti">Shop now</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <div class="container d-flex flex-column mt-3 w-75">
+    <h2 class="text-uppercase align-self-center">Limited
+      <strong>edition</strong>
+    </h2>
+    <!-- Swiper -->
+    <div class="swiper swiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide col-lg-3">
+          <div class="card h-100 border-0" style="background: none;">
+            <img class="img-fluid d-block" src="bag.jpg" alt="Pilot Aviator Glasses Gear Image">
+            <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+              <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+              <button class="btn butoni"><i class="bi bi-heart"></i>
+            </div>
+            <div class="d-flex flex-column fw-bolder">
+              <p class="tekst text-start my-0 px-0 py-0">Bag</p>
+              <div class="d-flex flex-row">
+                <p class="price fs-6 py-0 px-0"><del>$76.00</del></p>
+                <p class="price fs-6 py-0 ps-2 text-danger">$45.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide col-lg-3">
+          <div class="card h-100 border-0" style="background: none;">
+            <img class="img-fluid d-block" src="accessories.jpg" alt="Pilot Aviator Glasses Gear Image">
+            <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+              <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+              <button class="btn butoni"><i class="bi bi-heart"></i>
+            </div>
+            <div class="d-flex flex-column fw-bolder">
+              <p class="my-0 px-0 py-0 text-start">Accessories</p>
+              <div class="d-flex flex-row">
+                <p class="price fs-6 py-0 px-0">$76.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide col-lg-3">
+          <div class="card h-100 border-0" style="background: none;">
+            <img class="img-fluid d-block" src="accc.jpg" alt="Pilot Aviator Glasses Gear Image">
+            <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+              <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+              <button class="btn butoni"><i class="bi bi-heart"></i>
+            </div>
+            <div class="d-flex flex-column fw-bolder">
+              <p class="my-0 px-0 text-start">Hair clip</p>
+              <div class="d-flex flex-row">
+                <p class="price fs-6 py-0">$45.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide col-lg-3">
+          <div class="card h-100  border-0" style="background: none !important;">
+            <img class="img-fluid d-block" src="accessories2.jpg" alt="Pilot Aviator Glasses Gear Image">
+            <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+              <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+              <button class="btn butoni"><i class="bi bi-heart"></i>
+            </div>
+            <div class="d-flex flex-column fw-bolder">
+              <p class="text-start my-0 px-0 py-0 ">Hair Clip</p>
+              <div class="d-flex flex-row">
+                <p class="price fs-6 py-0 px-0">$76.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide col-lg-3">
+          <div class="card h-100 border-0" style="background: none;">
+            <img class="img-fluid d-block" src="hair.jpg" alt="Pilot Aviator Glasses Gear Image">
+            <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+              <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+              <button class="btn butoni"><i class="bi bi-heart"></i>
+            </div>
+            <div class="d-flex flex-column fw-bolder">
+              <p class="my-0 px-0 text-start">Hair clip</p>
+              <div class="d-flex flex-row">
+                <p class="price fs-6 py-0">$45.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide col-lg-3">
+          <div class="card h-100 border-0" style="background: none;">
+            <img class="img-fluid d-block" src="aksesor.jpg" alt="Pilot Aviator Glasses Gear Image">
+            <div class="card-body d-flex justify-content-between px-0 py-0" style="opacity: 0.7;">
+              <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center">Dresses</a>
+              <button class="btn butoni"><i class="bi bi-heart"></i>
+            </div>
+            <div class="d-flex flex-column fw-bolder">
+              <p class="my-0 px-0 text-start">Hair clip</p>
+              <div class="d-flex flex-row">
+                <p class="price fs-6 py-0">$45.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next text-dark"></div>
+      <div class="swiper-button-prev text-dark"></div>
+    </div>
+  </div>
+
+  <div class="container w-75">
+    <h2 class="text-uppercase text-center">@UOMO</h2>
+    <div class=" d-flex flex-column justify-content-between">
+      <div class="row d-flex justify-content-between">
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto1.jpg" class="img-responsive" style="max-width: 100%;
+          height: auto;">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto2.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2  col-4 mt-3 snip0016">
+          <img src="foto3.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto4.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto5.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto6.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="row d-flex justify-content-between">
+        <figure class="col-lg-2  col-4 mt-3 snip0016">
+          <img src="foto7.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto8.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto9.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto10.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto11.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+        <figure class="col-lg-2 col-4 mt-3 snip0016">
+          <img src="foto12.jpg" class="img-responsive" style="max-width: 100%; height:auto">
+          <figcaption>
+            <h2>Shop <span>now</span></h2>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container w-75 mt-5">
+    <div class="d-flex flex-lg-row justify-content-lg-between flex-column">
+      <div class="d-flex flex-column col-lg-4 col-sm-12">
+        <a class="align-self-center text-dark"><i class="bi bi-truck fw-bolder fs-2"></i></a>
+        <p class="text-uppercase fw-bold text-center">Fast and free delivery</p>
+        <p class="text-center" style="opacity: 0.8;">Fast delivery for all orders over $140</p>
+      </div>
+      <div class="d-flex flex-column col-lg-4 col-sm-12">
+        <a class="align-self-center text-dark"><i class="bi bi-headset fw-bolder fs-2"></i></i></a>
+        <p class="text-uppercase fw-bold text-center">24/7 Customer Support</p>
+        <p class="text-center" style="opacity: 0.8;">Friendly 24/7 customer support</p>
+      </div>
+      <div class="d-flex flex-column col-sm-12 col-lg-4">
+        <a class="align-self-center text-dark"><i class="bi bi-check2-all fs-2 fw-bolder"></i></a>
+        <p class="text-uppercase fw-bold text-center">Money Back Guarantee</p>
+        <p class="text-center" style="opacity: 0.8;">We return money within 3 days</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="container-fluid d-flex flex-column fonti" style="cursor: pointer;">
+    <div class="d-lg-flex flex-lg-row container w-75">
+      <div class="d-flex flex-column col-lg-3 col-12">
+        <a class="navbar-brand">
+          <img class="img-fluid" style="width: 50px; height: 50px;" src="leo.png" alt="logo">
+        </a>
+        <p class="mt-3">1418 River Drive, Suite 35 CottonHall, CA9622
+          United States</p>
+        <p>sale@uomo.com</p>
+        <p>+1 246-345-0695</p>
+        <!-- Social media -->
+        <div class="d-flex flex-row">
+          <button class="btn"><i class="fa-brands fa-instagram"></i></button>
+          <button class="btn"><i class="fa-brands fa-twitter"></i></button>
+          <button class="btn"><i class="fa-brands fa-pinterest"></i></button>
+          <button class="btn"><i class="fa-brands fa-facebook-f"></i></button>
+        </div>
+      </div>
+      <div class="d-flex flex-column justify-content-lg-end col-lg-2 col-6">
+        <p class="text-uppercase" style="font-size: small;">company</p>
+        <p class="hover-underline-animation text-dark">About us</p>
+        <p class="hover-underline-animation text-dark">Careers</p>
+        <p class="hover-underline-animation text-dark">Affiliates</p>
+        <p class="hover-underline-animation text-dark">Blog</p>
+        <p class="hover-underline-animation text-dark">Contact us</p>
+      </div>
+      <div class="d-flex flex-column justify-content-lg-end col-lg-2 col-6">
+        <p class="text-uppercase" style="font-size: small;">shop</p>
+        <p class="hover-underline-animation text-dark ">New Arrivals</p>
+        <p class="hover-underline-animation text-dark ">Accessories</p>
+        <p class="hover-underline-animation text-dark ">Men</p>
+        <p class="hover-underline-animation text-dark ">Women</p>
+        <p class="hover-underline-animation text-dark ">Shop all</p>
+      </div>
+      <div class="d-flex flex-column justify-content-lg-end col-lg-2 col-12">
+        <p class="text-uppercase" style="font-size: small;">help</p>
+        <p class="hover-underline-animation text-dark">Customer Service</p>
+        <p class="hover-underline-animation text-dark">My account</p>
+        <p class="hover-underline-animation text-dark">Find a store</p>
+        <p class="hover-underline-animation text-dark">Blog</p>
+        <p class="hover-underline-animation text-dark">Contact us</p>
+      </div>
+      <div class="d-flex flex-column align-self-lg-end col-lg-3 col-12">
+        <p class="text-uppercase" style="font-size: small;">subscribe</p>
+        <p>Be the first to get the latest news about trends, promotion, and much more</p>
+        <div class="row height d-flex justify-content-center align-items-center">
+          <div class="form">
+            <input type="text" class="form-control form-input" placeholder="Search...">
+            <span class="left-pan">Join</span>
+          </div>
+
+        </div>
+        <p class="mt-2">Secure payments</p>
+        <div class="d-flex flex-row">
+          <button class="btn"><i class="bi bi-credit-card text-blue"></i></button>
+          <button class="btn"><i class="fa-brands fa-cc-paypal text-paypal"></i></button>
+          <button class="btn"><i class="fa-brands fa-cc-visa text-danger"></i></button>
+          <button class="btn"><i class="fa-brands fa-cc-mastercard text-master-card"></i></button>
+        </div>
+      </div>
+    </div>
+    <hr class="container w-75">
+    <div class="d-flex flex-lg-row  container w-75 col-lg-12 flex-column">
+      <div class="col-lg-6">
+        <a class="text-dark" style="text-decoration: none;">@2022 Uomo</a>
+      </div>
+      <div class="d-flex flex-lg-row flex-column col-lg-6 justify-content-lg-end">
+        <div class="d-flex flex-row">
+          <a class="text-dark me-2" style=" opacity: 0.9; text-decoration: none;">Language</a>
+          <a class="text-dark me-2 fw-bold" style="text-decoration:none;">United Kingdom | English <i
+              class="bi bi-caret-down" style="font-size: x-small; cursor: pointer;"></i></a>
+        </div>
+        <div class="d-flex-flex-row">
+          <a class="text-dark me-2" style="opacity: 0.9; text-decoration: none;">Currency </a>
+          <a class="text-dark fw-bold" style="text-decoration: none;">$USD <i class="bi bi-caret-down"
+              style="font-size: x-small; cursor: pointer;"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="module" src="./index.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
